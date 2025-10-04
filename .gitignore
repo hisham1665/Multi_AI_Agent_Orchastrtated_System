@@ -1,0 +1,261 @@
+# ============================================
+# Multi-Agent Orchestrator .gitignore
+# ============================================
+
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================
+# Node.js / JavaScript / React / Vite
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Package manager locks (keep one, ignore others)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# Project Output Directories
+# ============================================
+# All generated projects
+projects/*/
+
+# Legacy output directory
+project_output/
+quick_test_output/
+
+# Keep the projects folder structure but ignore contents
+!projects/.gitkeep
+
+# ============================================
+# Generated Files & Reports
+# ============================================
+# Project reports
+**/project_report.txt
+
+# Backup files
+*_OLD.py
+*_backup.py
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ============================================
+# OS Files
+# ============================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+*.log.*
+
+# ============================================
+# Environment & Configuration
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# Dependencies & Libraries
+# ============================================
+# Python
+site-packages/
+
+# JavaScript
+bower_components/
+jspm_packages/
+
+# ============================================
+# Images & Media (Generated)
+# ============================================
+# Only ignore generated images in projects
+**/images/*.jpg
+**/images/*.jpeg
+**/images/*.png
+**/images/*.gif
+**/images/*.webp
+
+# Keep sample/placeholder images
+!**/images/sample.*
+!**/images/placeholder.*
+
+# ============================================
+# Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Compiled / Minified Files
+# ============================================
+*.min.js
+*.min.css
+*.bundle.js
+
+# ============================================
+# Archives
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# System Files
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# Keep Important Files
+# ============================================
+# Keep these files even if rules above would ignore them
+!README.md
+!.gitignore
+!multi_agent_orchestrator.py
+
+# ============================================
+# Project Specific
+# ============================================
+# Test outputs
+test_output/
+test_results/
+
+# Documentation builds
+docs/_build/
