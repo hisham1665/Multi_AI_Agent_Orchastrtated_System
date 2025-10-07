@@ -2,13 +2,7 @@
 
 
 
-A powerful autonomous multi-agent system that builds complete software projects using AI agents working in parallel.## 🎯 TLDR - Just Run This:
-
-
-
----```powershell
-
-python SIMPLE.py
+A powerful autonomous multi-agent system that builds complete software projects using AI agents working in parallel.## 🎯 TLDR - Just Run This:\
 
 ## 🎯 What It Does```
 
